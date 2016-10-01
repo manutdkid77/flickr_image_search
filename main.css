@@ -2062,3 +2062,16 @@ footer p {
 }
 
 
+input[type=search] {
+    font-size: 1.6em;
+    padding: 0.8em 1em;
+    margin-left: 1em;
+    border: 3px solid lightgrey;
+    outline: grey;
+    border-radius: 26px;
+    background: #E8EBED;
+}
+input[type='search']:focus{
+  background: #FFFFFF;
+  border: 3px solid lightgrey;
+}
