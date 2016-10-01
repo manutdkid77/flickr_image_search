@@ -2075,3 +2075,15 @@ input[type='search']:focus{
   background: #FFFFFF;
   border: 3px solid lightgrey;
 }
+
+input[type='submit']{
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 6px;
+    margin-left: 1em;
+    background: #5FCF80;
+    font-size: 1.5em; 
+}
+input[type='submit']:hover{
+  background: #3AC162;
+}
