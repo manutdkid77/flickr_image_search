@@ -1,3 +1,15 @@
+var handler={
+
+search:function(){
+    document.querySelector('form').addEventListener('submit',function(event){
+      event.preventDefault();
+
+      var searchBox=document.getElementById('search');
+      view.flickr_call(searchBox.value);
+    });
+  }
+};//End handler
+
 var view={
   flickr_call:function(searchItem){
   	var flickrURL='https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
